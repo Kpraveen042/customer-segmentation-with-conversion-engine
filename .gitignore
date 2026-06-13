@@ -1,0 +1,32 @@
+# Ignore large datasets and data folders
+amazon_ecommerce_1M.csv
+ecommerce-conversion-engine/data/
+
+# Ignore Python virtual environments
+**/venv/
+venv/
+ENV/
+env/
+
+# Ignore Python caches
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Ignore IDE configs
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
